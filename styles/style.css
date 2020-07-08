@@ -1,4 +1,4 @@
-/** {outline: 1px solid red}*/
+* {outline: 1px solid red}
 
 .page {
   min-width: 1100px;
@@ -9,12 +9,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-}
-
-.text {
-  color: #000;
-  margin: 0;
-  padding: 0;
 }
 
 .header {
@@ -111,7 +105,7 @@
 .two-colums {
   display: flex;
   justify-content: space-between;
-  margin: 100px 0 100px 0;
+  margin-top: 100px;
   width: 80%;
 }
 
@@ -130,7 +124,6 @@
 
 .two-colums__paragraph {
   margin-top: 30px;
-  top: 30px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -146,4 +139,54 @@
   font-weight: bold;
 }
 
+.digits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px auto;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+}
+
+.table__cell {
+  margin-top: 60px;
+  width: 250px;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
 
