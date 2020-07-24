@@ -6,9 +6,9 @@
     font-weight: normal;
     color: #2f80ed;
     text-decoration: none;
-    transition: 0.3s linear 0.1s;
 }
 
 .khan__buy-link:hover {
+    transition: 0.3s linear;
     opacity: 50%;
 }
