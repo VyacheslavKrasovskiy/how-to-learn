@@ -4,6 +4,7 @@
 @import url(../table/__cell/_theme_dark/table__cell_theme_dark.css);
 @import url(../table/__heading/_theme_dark/table__heading_theme_dark.css);
 @import url(../table/__text/_theme_dark/table__text_theme_dark.css);
+@import url(./__triangle/kaufman__triangle.css);
 
 .kaufman {
     background-color: #1f1f1f;
@@ -12,17 +13,4 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 90px 0;
-  }
-  
-  .kaufman::after {
-    content: "";
-    background-image: url(/images/kaufman-triangle.svg);
-    background-size: 877px 877px;
-    width: 877px;
-    height: 877px;
-    position: absolute;
-    right: -210px;
-    top: 0;
-    z-index: 1;
   }
