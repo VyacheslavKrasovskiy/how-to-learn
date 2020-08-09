@@ -1,5 +1,5 @@
 # how-to-learn
-## Научиться учиться
+## [Научиться учиться](https://vyacheslavkrasovskiy.github.io/how-to-learn/)
 ### Проектная работа №2 на [Яндекс Практикум](https://www.praktikum.yandex.ru)
 
 Проект создан в рамках обучения на первом курсе в качестве проектной работы
